@@ -1,0 +1,35 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0f172a"/>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e1b4b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  
+  <!-- Background pattern -->
+  <circle cx="200" cy="150" r="100" fill="#3b82f6" opacity="0.1"/>
+  <circle cx="1000" cy="480" r="150" fill="#8b5cf6" opacity="0.1"/>
+  <circle cx="600" cy="100" r="80" fill="#06b6d4" opacity="0.1"/>
+  
+  <!-- Main content -->
+  <text x="100" y="200" font-family="system-ui, sans-serif" font-size="64" font-weight="700" fill="white">
+    BlueBeetle.live
+  </text>
+  <text x="100" y="280" font-family="system-ui, sans-serif" font-size="32" font-weight="400" fill="#94a3b8">
+    Agentic Intelligence for the Markets That Never Sleep
+  </text>
+  <text x="100" y="340" font-family="system-ui, sans-serif" font-size="24" font-weight="300" fill="#64748b">
+    The living co-pilot for traders and funds
+  </text>
+  
+  <!-- Beetle icon -->
+  <g transform="translate(900, 200)">
+    <circle cx="0" cy="0" r="60" fill="#3b82f6" opacity="0.2"/>
+    <circle cx="0" cy="0" r="40" fill="#60a5fa" opacity="0.4"/>
+    <circle cx="0" cy="0" r="20" fill="#93c5fd"/>
+    <circle cx="0" cy="0" r="8" fill="#dbeafe"/>
+  </g>
+</svg>

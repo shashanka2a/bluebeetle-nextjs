@@ -1,36 +1,143 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# BlueBeetle.live - Next.js
+
+A production-ready Next.js application for BlueBeetle.live, featuring agentic intelligence for financial markets.
+
+## Features
+
+- ⚡ **Next.js 15** with App Router
+- 🎨 **Tailwind CSS v4** for styling
+- 🎭 **Framer Motion** for animations
+- 🔧 **TypeScript** for type safety
+- 📱 **Responsive Design** for all devices
+- 🚀 **Production Ready** with optimized builds
+- 🔍 **SEO Optimized** with meta tags and Open Graph
+
+## Tech Stack
+
+- **Framework**: Next.js 15 with App Router
+- **Styling**: Tailwind CSS v4
+- **Animations**: Framer Motion
+- **UI Components**: Radix UI primitives
+- **Icons**: Lucide React
+- **Fonts**: Inter (Google Fonts) + Clash Display (Fontshare)
+- **Type Safety**: TypeScript
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
 
 ```bash
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Development
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Run development server
+npm run dev
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Run linting
+npm run lint
 
-## Learn More
+# Type checking
+npx tsc --noEmit
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+├── app/                    # Next.js App Router
+│   ├── components/         # React components
+│   │   ├── ui/            # Reusable UI components
+│   │   └── ...            # Feature components
+│   ├── globals.css        # Global styles
+│   ├── layout.tsx         # Root layout
+│   └── page.tsx           # Home page
+├── public/                 # Static assets
+│   ├── favicon.svg        # Site favicon
+│   └── og-image.svg       # Open Graph image
+└── ...                    # Config files
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Key Features
 
-## Deploy on Vercel
+### 🎨 Modern Design System
+- Glass-morphism effects
+- Gradient backgrounds
+- Smooth animations
+- Responsive typography
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🚀 Performance Optimized
+- Next.js Image optimization
+- Font optimization with next/font
+- Static generation where possible
+- Optimized bundle size
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 🔍 SEO & Social Media
+- Comprehensive meta tags
+- Open Graph images
+- Twitter Card support
+- Structured data ready
+
+### 🎭 Smooth Animations
+- Framer Motion integration
+- Scroll-triggered animations
+- Micro-interactions
+- Performance-optimized
+
+## Deployment
+
+This project is ready for deployment on:
+
+- **Vercel** (recommended)
+- **Netlify**
+- **AWS Amplify**
+- **Any Node.js hosting**
+
+### Vercel Deployment
+
+```bash
+# Install Vercel CLI
+npm i -g vercel
+
+# Deploy
+vercel
+
+# Production deployment
+vercel --prod
+```
+
+## Environment Variables
+
+No environment variables are required for basic functionality.
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test thoroughly
+5. Submit a pull request
+
+## License
+
+This project is proprietary software for BlueBeetle.live.
+
+---
+
+Built with ❤️ using Next.js and modern web technologies.
