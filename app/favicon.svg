@@ -1,7 +1,15 @@
-<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="32" height="32" rx="6" fill="#0f172a"/>
-  <path d="M16 6C20.4183 6 24 9.58172 24 14C24 18.4183 20.4183 22 16 22C11.5817 22 8 18.4183 8 14C8 9.58172 11.5817 6 16 6Z" fill="#3b82f6" opacity="0.8"/>
-  <circle cx="16" cy="14" r="3" fill="#60a5fa"/>
-  <path d="M12 20L16 16L20 20" stroke="#93c5fd" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="16" cy="14" r="1" fill="#dbeafe"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 36" fill="none">
+  <g fill="#3B82F6">
+    <!-- Beetle body -->
+    <ellipse cx="24" cy="18" rx="12" ry="16" opacity="0.8" />
+    <ellipse cx="24" cy="14" rx="8" ry="6" opacity="0.9" />
+    
+    <!-- Neural connections -->
+    <circle cx="32" cy="18" r="1.5" opacity="0.7" />
+    <circle cx="16" cy="18" r="1.5" opacity="0.7" />
+    <circle cx="24" cy="8" r="1.5" opacity="0.7" />
+    <circle cx="24" cy="28" r="1.5" opacity="0.7" />
+    <circle cx="30" cy="12" r="1.5" opacity="0.7" />
+    <circle cx="18" cy="12" r="1.5" opacity="0.7" />
+  </g>
 </svg>
